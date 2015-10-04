@@ -1,0 +1,41 @@
+{
+  "name": "fonts-installed-osx",
+  "version": "1.0.0",
+  "description": "Get an approximate list of the fonts available on your system in OSX",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "https://github.com/hughsk"
+  },
+  "dependencies": {
+    "uniq": "^1.0.1",
+    "userhome": "^1.0.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.0"
+  },
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
+  "keywords": [
+    "font,",
+    "osx,",
+    "list,",
+    "installed,",
+    "system,",
+    "type,",
+    "text,",
+    "format"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/fonts-installed-osx.git"
+  },
+  "homepage": "https://github.com/hughsk/fonts-installed-osx",
+  "bugs": {
+    "url": "https://github.com/hughsk/fonts-installed-osx/issues"
+  }
+}
